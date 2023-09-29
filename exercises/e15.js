@@ -5,9 +5,19 @@
 // NOTE: You can NOT use the array.concat() method in your code
 
 export function concatArrays(arr1, arr2) {
-  // Your code goes here...
+  let concatenatedArray = [];
 
+  for (let i = 0; i < arr1.length; i++) {
+      concatenatedArray.push(arr1[i]);
+  }
+
+  for (let i = 0; i < arr2.length; i++) {
+      concatenatedArray.push(arr2[i]);
+  }
+
+  return concatenatedArray;
 }
+
 
 
 
